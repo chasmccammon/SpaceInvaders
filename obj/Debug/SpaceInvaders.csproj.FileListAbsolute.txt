@@ -1,0 +1,10 @@
+C:\Users\chasmcc\source\repos\SpaceInvaders\bin\Debug\SpaceInvaders.exe.config
+C:\Users\chasmcc\source\repos\SpaceInvaders\bin\Debug\SpaceInvaders.exe
+C:\Users\chasmcc\source\repos\SpaceInvaders\bin\Debug\SpaceInvaders.pdb
+C:\Users\chasmcc\source\repos\SpaceInvaders\obj\Debug\SpaceInvaders.csprojAssemblyReference.cache
+C:\Users\chasmcc\source\repos\SpaceInvaders\obj\Debug\SpaceInvaders.Form1.resources
+C:\Users\chasmcc\source\repos\SpaceInvaders\obj\Debug\SpaceInvaders.Properties.Resources.resources
+C:\Users\chasmcc\source\repos\SpaceInvaders\obj\Debug\SpaceInvaders.csproj.GenerateResource.cache
+C:\Users\chasmcc\source\repos\SpaceInvaders\obj\Debug\SpaceInvaders.csproj.CoreCompileInputs.cache
+C:\Users\chasmcc\source\repos\SpaceInvaders\obj\Debug\SpaceInvaders.exe
+C:\Users\chasmcc\source\repos\SpaceInvaders\obj\Debug\SpaceInvaders.pdb
