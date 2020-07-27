@@ -9,35 +9,36 @@ namespace SpaceInvaders
 {
     class Player
     {
-        private int X;
-        private int Y;
-        public Player(int X, int Y)
+        
+        
+        public void spawn()
         {
-            this.X = X;
-            this.Y = Y;
-        }
-        public PictureBox spawn()
-        {
-            PictureBox ship = new PictureBox();
-            ship.Image = global::SpaceInvaders.Properties.Resources.pngkit_space_ship_png_328881;
-            ship.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            ship.BackColor = System.Drawing.Color.Transparent;
-            ship.Location = new System.Drawing.Point(X, Y);
-            ship.Name = "player";
-            ship.Size = new System.Drawing.Size(150, 150);
-            ship.TabIndex = 0;
-            ship.TabStop = false;
-            return ship;
+           
         }
 
-        public void moveleft()
+        public void moveleft(Form form1,PictureBox player)
         {
+            
+            int test = player.Location.X;
+            if(test > 0)
+            {
+                player.Location = new System.Drawing.Point(test -= 20, player.Location.Y);
+
+            }
+            //pictureBox1.Location = new System.Drawing.Point(50, 50);
+
 
         }
 
-        public void moveright()
+        public void moveright(Form form1,PictureBox player)
         {
+            int test = player.Location.X ;
 
+            if (test + 95 < 1584)
+            {
+                player.Location = new System.Drawing.Point(test += 20, player.Location.Y);
+
+            }
         }
 
         public void fire()
